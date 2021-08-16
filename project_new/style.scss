@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Header{
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .left{
+        a{
+            font-size: 25px;
+        }
+    }
+    .right{
+        a{
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        }
+}
+
+#Phone-Header{
+    background-color: #fff;
+    padding: 20px 0;
+    display: none;
+    .left{
+        a{
+            font-size: 25px;
+            color: black;
+        }
+    }
+    .right{
+        a{
+        padding:10px 15px;
+        color: #64a19d;
+        border: 1px solid #64a19d;
+        background-color: #fff;
+        }
+    }
+}
+
+
+@media(max-width:576px){
+    #Header{
+        display: none;
+    }
+    #Phone-Header{
+        display: block;
+    }
+}
+
+#Header2{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20rem 0;
+    .all{
+        h1{
+            font-size: 6.5rem;
+            letter-spacing: 0.8rem;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 1.25rem;
+            margin-bottom: 55px;
+        }
+        a{
+            padding: 20px 55px;
+            background-image: linear-gradient(to right ,red,rgb(245, 136, 136),red);
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: 0.4s;
+            &:hover{
+                background-color: rgb(157, 155, 155);
+            }
+        }
+    }
+}
+
+
+
+#About{
+    padding-top:10rem;
+    background-color: #000;
+    .top{
+        h2{
+            color: #fff;
+            font-size: 32px;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.5) !important;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+#Shore{
+    padding: 8rem 0;
+    background-color: #fff;
+    .text{
+        h4{
+            font-size: 24px;
+            color: #212529;
+        }
+        p{
+            font-size: 16px;
+            color: #00000080;
+        }
+    }
+}
+
+
+#Mountains{
+    margin-top: 3rem;
+    .box{
+        background-color: #000;
+        padding: 10rem;
+        h4{
+            color: #fff;
+            font-size: 24px;
+        }
+        p{
+            color: #ffffff80;
+            font-size: 14px;
+        }
+    }
+}
